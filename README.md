@@ -1,48 +1,64 @@
-# Olist E-Commerce Sales Analysis
+🛒 Olist E-Commerce Sales Analysis
 
-## Project Overview
+📌 Project Overview
 
-This project analyzes the Olist E-Commerce dataset using SQL and Power BI. The objective is to analyze sales performance, customer behavior, payment methods, product categories, and business trends through data analysis and dashboard visualization.
+This project presents a comprehensive analysis of the Olist E-Commerce dataset using MySQL and Power BI. The objective is to analyze customer behavior, sales performance, revenue trends, payment methods, product categories, and delivery performance through SQL-based business analysis and interactive dashboards.
 
 ---
 
-## Tools & Technologies
+🛠️ Tools Used
 
-- SQL
+- MySQL
 - Power BI
 
 ---
 
-## Dataset
+📂 Project Structure
 
-Olist E-Commerce Dataset
-
-The dataset contains information about:
-
-- Customers
-- Orders
-- Order Items
-- Products
-- Payments
-- Sellers
-- Reviews
+Olist_E-Commerce_Sales_Analysis
+│
+├── Dataset
+├── Dashboard_Screenshots
+├── SQL
+├── Power BI
+└── README.md
 
 ---
 
-## Project Features
+📊 Dashboard Preview
 
-### Data Cleaning & Quality Assessment
+Executive Sales Overview
 
-- Missing Customer ID Analysis
-- Missing Unique Customer ID Analysis
-- Missing Order ID Analysis
-- Missing Payment Value Analysis
-- Missing Product Category Analysis
-- Missing Delivery Date Analysis
-- Duplicate Order Detection
-- Invalid Payment Value Detection
+"Executive Dashboard" (Dashboard_Screenshots/Executive_Sales_Overview.png)
 
-### KPI Analysis
+Sales & Customers Insight
+
+"Customer Dashboard" (Dashboard_Screenshots/Sales_Customers_Insight.png)
+
+---
+
+🔍 SQL Analysis
+
+Data Preview
+
+- Customers Dataset
+- Orders Dataset
+- Order Payments Dataset
+- Products Dataset
+- Order Items Dataset
+
+Data Cleaning & Quality Assessment
+
+- Missing Customer IDs
+- Missing Unique Customer IDs
+- Missing Order IDs
+- Duplicate Orders
+- Missing Delivery Dates
+- Missing Payment Values
+- Invalid Payment Values
+- Missing Product Categories
+
+KPI Analysis
 
 - Total Customers
 - Total Orders
@@ -51,140 +67,77 @@ The dataset contains information about:
 - Average Order Value
 - Total Unique Customers
 
-### Customer Analysis
+Customer Analysis
 
 - Top Customer States
 - Top Customer Cities
-- Customer Distribution Analysis
+- Unique Customer Count
 
-### Order Analysis
+Order Analysis
 
 - Order Status Distribution
 - Orders by Year
 
-### Payment Analysis
+Payment Analysis
 
 - Payment Type Distribution
 
-### Revenue Analysis
+Revenue Analysis
 
 - Monthly Revenue Trend
-- Top Revenue States
+- Top Revenue Generating States
 
-### Delivery Analysis
+Delivery Analysis
 
 - Average Delivery Days
 
-### Product Analysis
+Sales Performance Analysis
 
-- Top Product Categories by Orders
+- Top 10 Highest Revenue Orders
 
----
+Product Analysis
 
-## Power BI Dashboard
-
-### Executive Sales Overview
-
-- Product Sold
-- Average Order Value
-- Active Customers
-- Total Sales
-- Total Revenue
-- Total Orders
-- Revenue Trend
-- Payment Distribution
-- State-wise Revenue
-
-### Sales & Customer Insights
-
-- Top Customers by Purchase Value
-- Revenue vs Target
-- Customer Satisfaction Rating
-- Top Sellers by Revenue
-- Order Status Distribution
+- Top 10 Product Categories by Total Orders
 
 ---
 
-## Dashboard Screenshots
+📈 Dashboard Insights
 
-### Executive Sales Overview
+Executive Sales Overview
 
-![Executive Sales Overview](Dashboard_Screenshots/Executive_Sales_Overview.png)
+- Product Sold: 51K
+- Average Order Value: 158.37
+- Active Customers: 45K
+- Total Sales: 6.16M
+- Total Revenue: 7.14M
+- Total Orders: 45K
 
-### Sales & Customer Insights
-
-![Sales & Customer Insights](Dashboard_Screenshots/Sales_Customers_Insight.png)
-
-### Data Model View
-
-![Data Model View](Dashboard_Screenshots/Data_Model_View.png)
-
----
-
-## Key Insights
+Key Insights
 
 - Credit Card is the most preferred payment method.
-- Top product categories generated the highest revenue.
-- São Paulo generated the highest revenue among states.
-- Most orders were successfully delivered.
-- Revenue showed growth over time.
+- Top product categories contribute significantly to overall revenue.
+- São Paulo generates the highest customer sales among states.
+- Most customers provided high review scores.
+- Delivered orders dominate the overall order status distribution.
 
 ---
 
-## Project Structure
+🔗 Project Files
 
-text
-Olist-ECommerce-Sales-Analytics/
+Power BI Dashboard
 
-├── Dataset/
-
-├── SQL/
-│   └── Olist_Ecommerce_Analytics_Project.sql
-
-├── PowerBI/
-│   └── Olist_Ecommerce_Analysis.pbix
-
-├── Dashboard_Screenshots/
-│   ├── Executive_Sales_Overview.png
-│   ├── Sales_Customers_Insight.png
-│   └── Data_Model_View.png
-
-└── README.md
-
+https://drive.google.com/file/d/1ZpJSZLc-koVGXwmqOLPBroeVIUwCVcy6/view
 
 ---
 
-## Skills Demonstrated
+👨‍💻 Author
 
-- SQL Querying
-- Data Cleaning
-- Data Validation
-- Data Analysis
-- KPI Development
-- Data Visualization
-- Dashboard Development
-- Power BI Reporting
-- Business Intelligence
-- Problem Solving
+Mukto Seikh
+
+Skills
+
+Python • Pandas • NumPy • Matplotlib • Seaborn • Statistics • Microsoft Excel • SQL (MySQL) • Power BI • Data Cleaning • Data Analysis • Data Visualization • Dashboard Development • Business Intelligence
 
 ---
 
-## Author
-
-### Mukto Seikh
-
-Aspiring Data Analyst
-
-### Skills
-
-- Python
-- Pandas
-- NumPy
-- Statistics
-- Matplotlib
-- Seaborn
-- SQL
-- Microsoft Excel
-- Power BI
-
----
+⭐ If you found this project useful, consider giving it a star.
