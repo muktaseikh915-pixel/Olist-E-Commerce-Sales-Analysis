@@ -136,7 +136,7 @@ Mukto Seikh
 
 Skills
 
-Python • Pandas • NumPy • Matplotlib • Seaborn • Statistics • Microsoft Excel • SQL (MySQL) • Power BI • Data Cleaning • Data Analysis • Data Visualization • Dashboard Development • Business Intelligence
+Python • Pandas • NumPy • Matplotlib • Seaborn • Statistics • Microsoft Excel • SQL (MySQL) • Power BI 
 
 ---
 
